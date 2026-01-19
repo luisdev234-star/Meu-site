@@ -1,0 +1,220 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+}
+
+.menu-site {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: auto;
+  gap: 6px;
+  padding: 0px 22px;
+  background-color: #ebe4d7;
+}
+.logo-site {
+  width: 60px;
+  height: 60px;
+  max-width: 100%;
+  width: 100%;
+}
+.menu-site > .img-1:nth-child(1) {
+  align-self: center;
+  justify-self: start;
+  padding: 0px 10px;
+}
+.botao-menu {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #1e1e1e;
+  transition: 0.5s;
+}
+.botao-menu:hover {
+  background-color: #e6dfd2;
+  color: #4a90a4;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+.menu-navegaçao {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+  justify-self: center;
+}
+.sobre-mim {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  background-color: #f5f1e8;
+  padding: 15px 10px;
+  gap: 20px;
+}
+.titulo-sobre {
+  font-family: sans-serif;
+  color: #1e1e1e;
+}
+.texto-sobre {
+  font-family: sans-serif;
+  color: #5f5f5f;
+  font-size: 12px;
+  text-align: justify;
+}
+.Imagem-2 {
+  width: 320px;
+  height: auto;
+  border-radius: 4px;
+}
+.sobre-mim > .titulo-sobre:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+}
+.sobre-mim > .texto-sobre:nth-child(2) {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: center;
+  justify-self: center;
+}
+.sobre-mim > .img-2:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1/-1;
+  align-self: center;
+  justify-self: center;
+}
+.projetos-menu {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, auto);
+  background-color: #fbf8f2;
+  padding: 15px 30px;
+}
+.título-pro {
+  font-family: sans-serif;
+  color: #1e1e1e;
+}
+.projetos-menu > .título-pro:nth-child(1) {
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+.list-pro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  gap: 80px;
+  padding: 25px;
+  flex-wrap: wrap;
+}
+.cards-projeto {
+  width: 180px;
+  background-color: #f5f1e8;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.cards-projeto:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+.ti-card {
+  font-family: sans-serif;
+  color: #1e1e1e;
+  text-align: center;
+}
+.img-card {
+  width: 180px;
+  height: auto;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.contatos-menu {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, auto);
+  background-color: #f5f1e8;
+}
+.tit-contatos {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.contatos-menu > .tit-contatos:nth-child(1) {
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+}
+.flex-contatos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  gap: 140px;
+  padding: 20px;
+}
+.img-contatos {
+  width: 60px;
+  height: auto;
+  border-radius: 16px;
+  transition: 0.5s;
+}
+.img-contatos:hover {
+  filter: brightness(70%);
+}
+
+@media (max-width: 360px) {
+  .menu-site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .img-1 {
+    display: flex;
+    align-items: center;
+  }
+  .logo-site {
+    width: 90px;
+    height: auto;
+    display: block;
+  }
+  .botao-menu {
+    font-size: 12px;
+  }
+  .menu-navegaçao {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 0px;
+  }
+  .sobre-mim {
+    display: flex;
+    flex-direction: column;
+  }
+  .contatos-menu {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: 1fr;
+  }
+  .contatos-menu > .tit-contatos:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 10px;
+    align-self: center;
+    justify-self: center;
+  }
+  .img-contatos {
+    width: 30px;
+    height: auto;
+    border-radius: 8px;
+  }
+  .flex-contatos {
+    gap: 40px;
+  }
+}
