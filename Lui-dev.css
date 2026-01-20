@@ -21,7 +21,7 @@ body {
 }
 .menu-site > .img-1:nth-child(1) {
   align-self: center;
-  justify-self: start;
+  justify-self: center;
   padding: 0px 10px;
 }
 .botao-menu {
@@ -218,6 +218,7 @@ body {
     gap: 40px;
   }
 }
+
 
 
 
