@@ -40,9 +40,9 @@ body {
 .menu-navegaçao {
   display: flex;
   flex-direction: row;
-  gap: 100px;
+  gap: 200px;
   align-items: center;
-  justify-self: end;
+  justify-self: center;
 }
 .sobre-mim {
   display: grid;
@@ -218,6 +218,7 @@ body {
     gap: 40px;
   }
 }
+
 
 
 
