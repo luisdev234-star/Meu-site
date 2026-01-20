@@ -54,7 +54,7 @@ body {
 }
 .titulo-sobre {
   font-family: sans-serif;
-   font-size: 30px;
+   font-size: 26px;
   color: #1e1e1e;
 }
 .texto-sobre {
@@ -219,6 +219,7 @@ body {
     gap: 40px;
   }
 }
+
 
 
 
