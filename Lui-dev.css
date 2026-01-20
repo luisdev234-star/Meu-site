@@ -40,7 +40,7 @@ body {
 .menu-navegaçao {
   display: flex;
   flex-direction: row;
-  gap: 200px;
+  gap: 150px;
   align-items: center;
   justify-self: center;
 }
@@ -218,6 +218,7 @@ body {
     gap: 40px;
   }
 }
+
 
 
 
