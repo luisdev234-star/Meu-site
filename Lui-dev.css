@@ -27,7 +27,7 @@ body {
 .botao-menu {
   text-decoration: none;
   font-family: sans-serif;
-  font-size: 1rem;
+  font-size: 20px;
   color: #1e1e1e;
   transition: 0.5s;
 }
@@ -218,4 +218,5 @@ body {
     gap: 40px;
   }
 }
+
 
