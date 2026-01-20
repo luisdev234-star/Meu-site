@@ -64,7 +64,7 @@ body {
   text-align: justify;
 }
 .Imagem-2 {
-  width: 320px;
+  width: 500px;
   height: auto;
   border-radius: 4px;
 }
@@ -219,6 +219,7 @@ body {
     gap: 40px;
   }
 }
+
 
 
 
