@@ -54,12 +54,13 @@ body {
 }
 .titulo-sobre {
   font-family: sans-serif;
+   font-size: 30px;
   color: #1e1e1e;
 }
 .texto-sobre {
   font-family: sans-serif;
   color: #5f5f5f;
-  font-size: 12px;
+  font-size: 20px;
   text-align: justify;
 }
 .Imagem-2 {
@@ -218,6 +219,7 @@ body {
     gap: 40px;
   }
 }
+
 
 
 
