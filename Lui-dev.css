@@ -199,6 +199,9 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .Imagem-2 {
+    max-width: 100%;
+  }
   .contatos-menu {
     display: grid;
     grid-template-rows: repeat(2, auto);
@@ -220,6 +223,7 @@ body {
     gap: 40px;
   }
 }
+
 
 
 
