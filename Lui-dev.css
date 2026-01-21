@@ -144,7 +144,7 @@ body {
 }
 .tit-contatos {
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 .contatos-menu > .tit-contatos:nth-child(1) {
   grid-row: 1;
@@ -160,7 +160,7 @@ body {
   padding: 20px;
 }
 .img-contatos {
-  width: 60px;
+  width: 80px;
   height: auto;
   border-radius: 16px;
   transition: 0.5s;
@@ -220,6 +220,7 @@ body {
     gap: 40px;
   }
 }
+
 
 
 
