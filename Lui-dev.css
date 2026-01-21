@@ -169,7 +169,7 @@ body {
   filter: brightness(70%);
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .menu-site {
     display: flex;
     flex-direction: column;
@@ -220,6 +220,7 @@ body {
     gap: 40px;
   }
 }
+
 
 
 
